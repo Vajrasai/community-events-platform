@@ -81,26 +81,44 @@ Confirmation dialog before deleting an event
 Graceful handling of invalid event routes
 
 📂 Project Structure
-community-events-app/
+community-events-platform/
 ├── src/
-│   ├── components/
-│   │   ├── EventCard.jsx
-│   │   └── Filters.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── EventDetails.jsx
-│   │   ├── CreateEvent.jsx
-│   │   ├── EditEvent.jsx
-│   │   └── RSVP.jsx
-│   ├── context/
-│   │   └── EventContext.jsx
-│   ├── data/
-│   │   └── events.json
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│ ├── components/
+│ │ ├── EventCard.jsx
+│ │ ├── FilterBar.jsx
+│ │ └── Navbar.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── EventDetails.jsx
+│ │ ├── CreateEvent.jsx
+│ │ ├── EditEvent.jsx
+│ │ └── RSVPConfirmation.jsx
+│ ├── context/
+│ │ └── EventContext.jsx
+│ ├── data/
+│ │ └── events.json
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── Screenshots/
 ├── README.md
-└── package.json
+├── package.json
+└── vite.config.js
+
+Steps to Run/setup the project 
+
+1️⃣ Clone the Repository
+
+2️⃣Navigate to Project Folder
+cd community-events-platform
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Start the Development Server
+npm run dev
+
+5️⃣ Open in Browser
 
 👤 Author
 
